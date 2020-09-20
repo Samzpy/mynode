@@ -4,6 +4,6 @@ RUN mkdir src
 
 COPY helo.js src
 
-# WORKDIR 'src'
+WORKDIR 'src'
 
-CMD ["node","src/helo.js"]
+CMD ["node","helo.js"]
